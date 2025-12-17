@@ -1,17 +1,12 @@
 -- 1. Création de la base de données 
 DROP DATABASE IF EXISTS bibliotheque;
 CREATE DATABASE bibliotheque;
-use bibliotheque
-
-
-
-
-
+use bibliotheque;
 
 -- 2. Création de la table 'auteurs' 
-CREATE TABLE auteurs 
+CREATE TABLE individus  
 (
-    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 
     last_name VARCHAR (10),
 
